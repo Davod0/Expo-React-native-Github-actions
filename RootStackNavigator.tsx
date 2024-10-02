@@ -1,9 +1,8 @@
-import SimpleLineIcons from '@expo/vector-icons/SimpleLineIcons';
+import AntDesign from '@expo/vector-icons/AntDesign';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import DetailsScreen from './screens/DetailsScreen';
 import HomeScreen from './screens/HomeScreen';
 import SettingsScreen from './screens/SettingScreen';
-import AntDesign from '@expo/vector-icons/AntDesign';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -17,7 +16,7 @@ export default function RootStackNavigator() {
   return (
     <RootStack.Navigator
       screenOptions={({ navigation }) => ({
-        headerRight: (props) => (
+        headerRight: () => (
           <AntDesign
             name="setting"
             size={24}

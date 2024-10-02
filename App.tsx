@@ -1,5 +1,4 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { StyleSheet } from 'react-native';
 import RootStackNavigator from './RootStackNavigator';
 
 export default function App() {
@@ -9,6 +8,7 @@ export default function App() {
     </NavigationContainer>
   );
 }
+<<<<<<< HEAD
 
 const styles = StyleSheet.create({
   container: {
@@ -16,3 +16,5 @@ const styles = StyleSheet.create({
     color: '#000',
   },
 });
+=======
+>>>>>>> e439f6d437a640ca471fab4ef9f42ccfe409a013
