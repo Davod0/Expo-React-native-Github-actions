@@ -16,7 +16,7 @@ export default function RootStackNavigator() {
   return (
     <RootStack.Navigator
       screenOptions={({ navigation }) => ({
-        headerRight: () => (
+        headerRight: (props) => (
           <AntDesign
             name="setting"
             size={24}
