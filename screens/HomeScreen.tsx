@@ -4,7 +4,7 @@ import { RootStackParamList } from '../RootStackNavigator';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
-export default function HomeScreen({ navigation, route }: Props) {
+export default function HomeScreen({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Home Screen</Text>
